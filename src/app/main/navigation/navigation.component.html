@@ -1,0 +1,785 @@
+<body>
+   <header class="sa-header">
+      <div class="sa-topbar">
+         <div class="container">
+            <div class="d-flex justify-content-between">
+               <div class="left-contennt">
+                  <div class="breaking-news">
+                     <span>Latest News / Story</span>
+                     <div id="ticker">
+                        <ul>
+                           <li><a href="#">Google hit with record EU fine over Shopping service</a></li>
+                           <li><a href="#">Business booming for giant cargo planes</a></li>
+                           <li><a href="#">Trump-Putin: Your toolkit to help understand the story</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="right-content d-flex align-self-center">
+                  <div class="d-flex">
+                     <span>Digital Magazines </span>
+                     <span>&nbsp;|&nbsp;&nbsp;</span>
+                     <div class="sa-language">
+                        <!-- <select>
+                           <option value="" />Feb 2022
+                           <option value="" />Jan 2022
+                           <option value="" />Dec 2021
+                           <option value="" />Nov 2021
+                           <option value="" />Oct 2021
+                           <option value="" />Sep 2021
+                        </select> -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="sa-ad">
+         <div class="container">
+            <div class="ad-content">
+               <a class="navbar-brand d-none d-lg-block" href="index.html"><img src="images/smelogo.png" alt="Logo" class="img-fluid" /></a>
+               <a href="#!"><img class="img-fluid card shadow" src="images/ads__banner.jpg" alt="Image" /></a>
+            </div>
+         </div>
+      </div>
+      <div class="sa-menu">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+               <div class="menu-content">
+                  <a class="navbar-brand d-block d-lg-none" href="#"><img src="images/smelogo.png" alt="Logo" class="img-fluid" /></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html">   <i class="fa fa-home active"></i>  </a></li>
+                        <li class="nav-item"><a [routerLink]="['/aboutus']" routerLinkActive="router-link-active" >About Us </a></li>
+                        <li class="nav-item sa-dropdown">
+                           <a [routerLink]="['/categories']" routerLinkActive="router-link-active" >Categories <span><i class="fa fa-angle-down" aria-hidden="true"></i></span></a>
+                           <ul class="sa-dropdown-menu">
+                              <li><a href="category.html">Focus</a></li>
+                              <li><a href="category.html">Editorial</a></li>
+                              <li><a href="category.html">Top Story</a></li>
+                              <li><a href="category.html">Feature</a></li>
+                              <li><a href="category.html">Interviews</a></li>
+                              <li><a href="category.html">Business</a></li>
+                              <li><a href="category.html">Technology</a></li>
+                           </ul>
+                        </li>
+                        <li class="nav-item"><a [routerLink]="['/news']" routerLinkActive="router-link-active" >News </a></li>
+                        <li class="nav-item"><a [routerLink]="['/videos']" routerLinkActive="router-link-active" >Videos </a></li>
+                        <li class="nav-item"><a [routerLink]="['/contactus']" routerLinkActive="router-link-active" >Contact Us </a></li>
+                     </ul>
+                  </div>
+                  <div class="sa-search">
+                     <div class="search-form">
+                        <form action="#" id="search" method="get">
+                           <input class="form-control" name="search" type="text" placeholder="Search here.." />
+                           <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <div class="sa-home-section">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-9">
+               <div class="row">
+                  <div class="col-md-8">
+                     <div class="post-slider">
+                        <div class="sa-post featured-post">
+                           <div class="entry-header">
+                              <div class="entry-thumbnail">
+                                 <a href="details.html"><img class="img-fluid" src="images/img/poster3.jpg" alt="Image"></a>
+                              </div>
+                           </div>
+                           <div class="entry-content absolute">
+                              <div class="category">
+                                 <ul class="global-list">
+                                    <li><a href="#">Lead Story</a></li>
+                                 </ul>
+                              </div>
+                              <h2 class="entry-title">
+                                 <a href="details.html">KGF 3 Release date, Rocky Alive or not, Cast, Shooting</a>
+                              </h2>
+                              <div class="entry-meta">
+                                 <ul class="global-list">
+                                    <li><i class="far fa-clock"></i><a href="#"> Mar 1, 2022 </a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="sa-post featured-post">
+                           <div class="entry-header">
+                              <div class="entry-thumbnail">
+                                 <a href="details.html"><img class="img-fluid" src="images/img/poster1.jpg" alt="Image"></a>
+                              </div>
+                           </div>
+                           <div class="entry-content absolute">
+                              <div class="category">
+                                 <ul class="global-list">
+                                    <li><a class="card shadow card-body" href="#">Lead Story</a></li>
+                                 </ul>
+                              </div>
+                              <h2 class="entry-title">
+                                 <a href="details.html">Liverpool Still Chasing Manchester City Like 'Mad' In Title Race</a>
+                              </h2>
+                              <div class="entry-meta">
+                                 <ul class="global-list">
+                                    <li><i class="far fa-clock"></i><a href="#"> May 1, 2022 </a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="sa-post featured-post">
+                           <div class="entry-header">
+                              <div class="entry-thumbnail">
+                                 <a href="details.html"><img class="img-fluid" src="images/img/poster2.jpg" alt="Image"></a>
+                              </div>
+                           </div>
+                           <div class="entry-content absolute">
+                              <div class="category">
+                                 <ul class="global-list">
+                                    <li><a href="#">Lead Story</a></li>
+                                 </ul>
+                              </div>
+                              <h2 class="entry-title">
+                                 <a href="details.html">Explained: How India can qualify for Women's Cricket World Cup 2022 semi-finals</a>
+                              </h2>
+                              <div class="entry-meta">
+                                 <ul class="global-list">
+                                    <li><i class="far fa-clock"></i><a href="#"> Mar 1, 2022 </a></li>
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                        
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="sa-post featured-post">
+                        <div class="entry-header">
+                           <div class="entry-thumbnail">
+                              <a href="#"><img src="images/img/poster4.jpg" alt="Image" class="img-fluid" /></a>
+                           </div>
+                        </div>
+                        <div class="entry-content absolute">
+                           <div class="category">
+                              <ul class="global-list">
+                                 <li><a href="#">NATA 2022 official brochure</a></li>
+                              </ul>
+                              <p>NEW DELHI: Council of Architecture (CoA) has released the NATA 2022 brochure in online mode on the official website – nata.in. </p>
+                              <div class="btn__top"></div>
+                              <a class="readcss__btn" href="#">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="sa-post featured-post">
+                        <div class="entry-header">
+                           <div class="entry-thumbnail">
+                              <a href="#"><img class="img-fluid" src="images/img/poster6.jpg" alt="Image"></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-3">
+               <div class="sa-post featured-post">
+                  <div class="entry-header">
+                     <div class="entry-thumbnail">
+                        <a href="details.html"><img class="img-fluid" src="images/img/poster5.jpg" alt="Image"></a>
+                     </div>
+                     <div class="category">
+                        <ul class="global-list">
+                           <li><a href="#">Top Story </a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="entry-content absolute">
+                     <h2 class="entry-title"><a href="details.html">New mom Bharti Singh reveals she wanted a daughter. </a></h2>
+                     <div class="entry-meta">
+                        <ul class="global-list">
+                           <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                           <li><i class="far fa-user"></i>By: Author</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="sa-post featured-post">
+                  <div class="entry-header">
+                     <div class="entry-thumbnail">
+                        <a href="details.html"><img class="img-fluid" src="images/img/poster7.jpg" alt="Image"></a>
+                     </div>
+                     <div class="category">
+                        <ul class="global-list">
+                           <li><a href="#">Latest Story </a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="entry-content absolute">
+                     <h2 class="entry-title"><a href="details.html">Elon Musk's Taj Mahal tweet prompts mother Maye to share anecdote from 1954..</a></h2>
+                     <div class="entry-meta">
+                        <ul class="global-list">
+                           <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                           <li><i class="far fa-user"></i>By: Author</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="sa-main-content mb-4">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-9 col-lg-9 sa-sticky">
+               <div class="theiaStickySidebar">
+                  <div class="sa-section section">
+                     <div class="section-content">
+                        <div class="section-title">
+                           <h1>Videos </h1>
+                           <div class="see-all">
+                              <a href="video.html">See All </a>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                        <img src="images/img/poster8.jpg">
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Avatar The Way of Water trailer: James Cameron promises</a></h2>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <!-- <iframe width="230" height="230" src=" " allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                       <img src="images/img/poster9.jpg">
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Elon Musk explains his views on Bitcoin (B Word Conference) </a></h2>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sa-section section">
+                     <div class="section-content">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="section-title">
+                                 <h1> <a href="category.html">Focus</a> </h1>
+                                 <div class="see-all">
+                                    <a href="category.html">See All </a>
+                                 </div>
+                              </div>
+                              <div class="post-slider">
+                                 <div class="sa-post">
+                                    <div class="entry-header">
+                                       <div class="entry-thumbnail">
+                                          <a href="#"><img class="img-fluid" src="images/img/poster10.jpg" alt="Image" /></a>
+                                       </div>
+                                    </div>
+                                    <div class="entry-content">
+                                       <h3 class="entry-title"><a href="#">South Africa calls for investment to boost economic </a></h3>
+                                       <div class="entry-meta mb-2">
+                                          <ul class="global-list">
+                                             <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                             <li><i class="far fa-user"></i>By: Author</li>
+                                          </ul>
+                                       </div>
+                                       <p>Focus travels to Johannesburg for the South Africa Investment Conference, as Africa's most industrialised and advanced economy attempts to showcase its comparative advantages and woo investment. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1 shadow">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#!">WORLD NEWS </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 26, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                       <p>The denial from the Indian mission came a day after it refuted as "fake and blatantly false" local social media speculation that former prime minister Mahinda Rajapaksa and his family members have fled to India.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1 shadow">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">INDIA NEWS </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Mar 2, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                       <p></p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1 shadow">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">taxes to Jeff Bezos small child </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="section-title">
+                                 <h1> <a href="category.html">Technology</a> </h1>
+                                 <div class="see-all">
+                                    <a href="category.html">See All </a>
+                                 </div>
+                              </div>
+                              <div class="post-slider">
+                                 <div class="sa-post">
+                                    <div class="entry-header">
+                                       <div class="entry-thumbnail">
+                                          <a href="#"><img class="img-fluid" src="images/img/poster11.jpg" alt="Image" /></a>
+                                       </div>
+                                    </div>
+                                    <div class="entry-content">
+                                       <h3 class="entry-title"><a href="#">Google TV’s ambient mode screen saver with sports scores and podcast links is rolling out </a></h3>
+                                       <div class="entry-meta mb-2">
+                                          <ul class="global-list">
+                                             <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                             <li><i class="far fa-user"></i>By: Author</li>
+                                          </ul>
+                                       </div>
+                                       <p>Last fall, Google announced a key improvement to devices running its Google TV front end with personalized access so that each user in a home could have individual profiles with their own recommendations  </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">China says Indian troops </a></h2> 
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Why is the media afraid of Facebook? </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Mar 2, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">taxes to Jeff Bezos small child </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div><div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">taxes to Jeff Bezos small child </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sa-ad">
+                     <div class="ad-content">
+                        <a href="#"><img class="img-fluid" src="images/others/ad1.jpg" alt="Image" /></a>
+                     </div>
+                  </div>
+                  <div class="sa-section section">
+                     <div class="section-content">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="section-title">
+                                 <h1> <a href="category.html">Cryptocurrency</a> </h1>
+                                 <div class="see-all">
+                                    <a href="category.html">See All </a>
+                                 </div>
+                              </div>
+                              <div class="post-slider">
+                                 <div class="sa-post">
+                                    <div class="entry-header">
+                                       <div class="entry-thumbnail">
+                                          <a href="#"><img class="img-fluid" src="images/img/poster12.jpg" alt="Image" /></a>
+                                       </div>
+                                    </div>
+                                    <div class="entry-content">
+                                       <h3 class="entry-title"><a href="#">Cryptocurrency – meaning and definition </a></h3>
+                                       <div class="entry-meta mb-2">
+                                          <ul class="global-list">
+                                             <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                             <li><i class="far fa-user"></i>By: Author</li>
+                                          </ul>
+                                       </div>
+                                       <p>Cryptocurrency, sometimes called crypto-currency or crypto, is any form of currency that exists digitally or virtually and uses cryptography to secure transactions. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">How to buy cryptocurrency </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 26, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Cryptocurrency Prices In India </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 26, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Recent Cryptocurrency News </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Mar 2, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="section-title">
+                                 <h1> <a href="category.html">Features</a> </h1>
+                                 <div class="see-all">
+                                    <a href="category.html">See All </a>
+                                 </div>
+                              </div>
+                              <div class="post-slider">
+                                 <div class="sa-post">
+                                    <div class="entry-header">
+                                       <div class="entry-thumbnail">
+                                          <a href="#"><img class="img-fluid" src="images/img/poster13.jpg" alt="Image" /></a>
+                                       </div>
+                                    </div>
+                                    <div class="entry-content">
+                                       <h3 class="entry-title"><a href="#">Media And Entertainment: Top and Latest News </a></h3>
+                                       <div class="entry-meta mb-2">
+                                          <ul class="global-list">
+                                             <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                             <li><i class="far fa-user"></i>By: Author</li>
+                                          </ul>
+                                       </div>
+                                       <p>Media And Entertainment: Get all the Latest News, Pictures, Videos and Special Report about Media And Entertainment by mint. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Media News - BBC News </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 26, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Latest Articles in Media, Entertainment </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Mar 2, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Entertainment - TV, Movies, and Music  </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sa-ad">
+                     <div class="ad-content">
+                        <a href="#"><img class="img-fluid" src="images/others/ad1.jpg" alt="Image" /></a>
+                     </div>
+                  </div>
+                  <div class="sa-section section">
+                     <div class="section-content">
+                        <div class="row">
+                           <div class="col-lg-6">
+                              <div class="section-title">
+                                 <h1> <a href="category.html">Editorials News</a> </h1>
+                                 <div class="see-all">
+                                    <a href="category.html">See All </a>
+                                 </div>
+                              </div>
+                              <div class="post-slider">
+                                 <div class="sa-post">
+                                    <div class="entry-header">
+                                       <div class="entry-thumbnail">
+                                          <a href="#"><img class="img-fluid" src="images/img/poster14.jpg" alt="Image" /></a>
+                                       </div>
+                                    </div>
+                                    <div class="entry-content">
+                                       <h3 class="entry-title"><a href="#">Aspirational India creating space for outsiders </a></h3>
+                                       <div class="entry-meta mb-2">
+                                          <ul class="global-list">
+                                             <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                             <li><i class="far fa-user"></i>By: Author</li>
+                                          </ul>
+                                       </div>
+                                       <p>The established political order is coming increasingly under attack from outsiders. </p>
+                                    </div>
+                                 </div>
+                              </div>
+                               
+                               
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">taxes to Jeff Bezos small child </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="section-title">
+                                 <h1> <a href="category.html">Business</a> </h1>
+                                 <div class="see-all">
+                                    <a href="category.html">See All </a>
+                                 </div>
+                              </div>
+                              <div class="post-slider">
+                                 <div class="sa-post">
+                                    <div class="entry-header">
+                                       <div class="entry-thumbnail">
+                                          <a href="#"><img class="img-fluid" src="images/img/poster15.jpg" alt="Image" /></a>
+                                       </div>
+                                    </div>
+                                    <div class="entry-content">
+                                       <h3 class="entry-title"><a href="#">BharatPe sacks staff, vendors; to claw back shares from Ashneer Grover </a></h3>
+                                       <div class="entry-meta mb-2">
+                                          <ul class="global-list">
+                                             <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                             <li><i class="far fa-user"></i>By: Author</li>
+                                          </ul>
+                                       </div> 
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post small-post post-style-1">
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">China says Indian troops </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 26, 2022 </a></li>
+                                          <li><i class="far fa-user"></i>By: Author</li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                               
+                               
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="sa-ad">
+                     <div class="ad-content">
+                        <a href="#"><img class="img-fluid" src="images/others/ad1.jpg" alt="Image" /></a>
+                     </div>
+                  </div>
+                  <div class="sa-section section">
+                     <div class="section-content">
+                        <div class="section-title">
+                           <h1>Related Topic / Story / Latset News </h1>
+                        </div>
+                        <div class="latest-news dots-style-1">
+                           <div class="latest-slider">
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <a href="#"><img class="img-fluid" src="images/img/poster18.jpg" alt="Image" /></a>
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">WHO Latest News 2022</a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <a href="#"><img class="img-fluid" src="images/img/poster19.jpg" alt="Image" /></a>
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">IPL Latest News 2022 </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <a href="#"><img class="img-fluid" src="images/img/poster20.jpg" alt="Image" /></a>
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Russia And Ukraine News </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                             <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <a href="#"><img class="img-fluid" src="images/img/poster18.jpg" alt="Image" /></a>
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">WHO Latest News 2022</a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <a href="#"><img class="img-fluid" src="images/img/poster19.jpg" alt="Image" /></a>
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">IPL Latest News 2022 </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="sa-post mid-post">
+                                 <div class="entry-header">
+                                    <div class="entry-thumbnail">
+                                       <a href="#"><img class="img-fluid" src="images/img/poster20.jpg" alt="Image" /></a>
+                                    </div>
+                                 </div>
+                                 <div class="entry-content">
+                                    <h2 class="entry-title"><a href="#">Russia And Ukraine News </a></h2>
+                                    <div class="entry-meta">
+                                       <ul class="global-list">
+                                          <li><i class="far fa-clock"></i><a href="#"> Feb 28, 2022 </a></li>
+                                       </ul>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-lg-3 sa-sticky">
+               <div class="sa-sidebar theiaStickySidebar">
+                  <div class="sa-widget">
+                     <div class="sa-ad">
+                        <a href="#!"><img class="img-fluid" src="images/img/poster16.jpg" alt="Image"></a>
+                     </div>
+                  </div>
+                  <div class="sa-widget">
+                     <div class="sa-ad">
+                        <a href="#!"><img class="img-fluid" src="images/img/poster17.jpg" alt="Image"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <footer id="footer">
+      <div class="footer-menu">
+         <div class="container">
+            <ul class="nav navbar-nav">
+               <li class="active"><a href="incdex.php">Home </a></li>
+               <li><a href="about.html">About </a></li>
+               <li><a href="#!">Business </a></li>
+               <li><a href="#!">Politics </a></li>
+               <li><a href="#!">World </a></li>
+               <li><a href="#!">News Details </a></li>
+               <li><a href="#!"><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+               <li><a href="#!"><i class="fab fa-google-plus-g"></i></a></li>
+               <li><a href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+               <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="footer-bottom text-center">
+         <div class="container">
+            <div class="footer-bottom-content">
+               <p>Copyright © 2022 SME World. All Rights Reserved.</p>
+               <p> Powered by <a href="#!" target="_blank">Arramnton Infotech</a></p>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
